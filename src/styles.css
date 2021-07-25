@@ -93,3 +93,4 @@ p {
 .week-days-card:hover {
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
 }
+small { text-align: center;}
