@@ -1,0 +1,95 @@
+body {
+  color: black;
+}
+h1 {
+  font-family: "Zilla Slab", serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 46px;
+  font-style: italic;
+  margin: 30px;
+}
+h2 {
+  text-align: center;
+  font-size: 15px;
+}
+h3 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 40px;
+  font-weight: 600;
+
+  font-family: "Zilla Slab", serif;
+}
+p {
+  text-align: center;
+  margin-bottom: 35px;
+}
+.main-card {
+  background-image: url(https://www.kidderminstershuttle.co.uk/resources/images/5195877.jpg?display=1&htype=54&type=responsive-gallery);
+  border-radius: 45px;
+  border-color: black;
+  border-style: solid;
+  border-width: medium;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  max-width: 600px;
+}
+
+.search {
+  text-align: center;
+}
+.button {
+  font-size: 13px;
+  border-color: black;
+  position: relative;
+  left: 10px;
+  top: -4px;
+}
+.search-bar {
+  border-radius: 6px;
+  font-size: 19px;
+}
+.main-icon {
+  font-size: 60px;
+  color: yellow;
+  opacity: 90%;
+  display: block;
+  text-align: center;
+  margin-bottom: 25px;
+  
+}
+
+.todays-temp {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.week-days {
+  font-weight: bold;
+}
+.week-days-icons {
+  font-size: 20px;
+}
+.sun-icon {
+  color: yellow;
+}
+.cloud-icon {
+  color: grey;
+}
+
+.week-days-card {
+  font-family: "Lato", sans-serif;
+  border-radius: 20px;
+  border-color: black;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.week-days-card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
